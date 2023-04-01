@@ -1,0 +1,16 @@
+# simple calculator
+def calc():
+  value1 = int(input("enter the value:"))
+  value2 = int(input("enter the value:"))
+  operator = input("enter the value of operator")
+  if(operator=="+"):
+    print("the sum of both values is",value1+value2)
+  elif(operator=="-"):
+    print("the difference of two values are",value1-value2)
+  elif(operator=="*"):
+    print("the multiplication of two values are",value1*value2)
+  elif(operator=="/"):
+    print("the division of two values are",value1/value2)
+  else:
+    print("the input is invalid")
+    calc()
